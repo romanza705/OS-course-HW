@@ -1,0 +1,158 @@
+    1  sudo apt install gdebi
+    2  apt install sudo
+    3  sudo apt install ./zoom_amd64.deb
+    4  sudo apt-get install telegram
+    5  sudo su
+    6  sudo snap install telegram-desktop
+    7  telegram-desctop
+    8  sudo snap install telegram-desktop
+    9  sudo add-apt-repository ppa:atareao/telegram
+   10  telegram
+   11  telegram-desctop
+   12  sudo apt-get update
+   13  sudo apt-get install telegram
+   14  telegram
+   15  telegram-desctop
+   16  whpami
+   17  whoami
+   18  hostname
+   19  man
+   20  man whoami
+   21  man man
+   22  -h
+   23  --help
+   24  man --help
+   25  man -h
+   26  less
+   27  display less
+   28  head
+   29  man -h|head
+   30  man -h|less
+   31  man -h|tail
+   32  mkdir ~/week1
+   33  ls
+   34  cd week1
+   35  ls
+   36  list.txt
+   37  touch list.txt
+   38  ls
+   39  lol > list.txt
+   40  "lol" > list.txt
+   41  cs .q
+   42  cd .q
+   43  cd ..d
+   44  cd ..
+   45  ls > week1/list.txt
+   46  ls
+   47  cd week1
+   48  ls
+   49  list.txt
+   50  list
+   51  gedit list.txt
+   52  ls
+   53  ls .
+   54  grep week1 list.txt
+   55  grep week list.txt
+   56  qrep д list.txt
+   57  greb д list.txt
+   58  grep д list.txt
+   59  gedit list.txt
+   60  head < list.txt
+   61  head -n list.txt
+   62  head -n 3 < list.txt
+   63  less < list.txt
+   64  tail < list.txt
+   65  ls | sort -r
+   66  list.txt
+   67  gedit list.txt
+   68  cd ..
+   69  ls
+   70  ls|sort|head
+   71  ls|sort -r|head
+   72  ls|sort -r|tail -n 3
+   73  ls|head -n 3
+   74  pwd
+   75  ls
+   76  ls|head -n 1|cd
+   77  cd week1
+   78  cat list.txt
+   79  gedit list.txt
+   80  gedit & list.txt
+   81  ls
+   82  gedit &
+   83  gedit list.txt &
+   84  gedit list.txt
+   85  fg
+   86  bg
+   87  fg
+   88  bg
+   89  fg
+   90  jobs
+   91  jobs|head
+   92  jobs > list.txt
+   93  cat list.txt
+   94  echo < list.txt
+   95  gedit list.thx
+   96  ls
+   97  gedit list.txt
+   98  cd ..
+   99  ls
+  100  ls > week1/list.txt
+  101  cd week1
+  102  ls
+  103  cat list.txt
+  104  echo < list.txt
+  105  cat list.txt
+  106  echo list.txt
+  107  bg
+  108  fg
+  109  jobs
+  110  ls
+  111  cd ..
+  112  ls
+  113  grep gcc /usr/bin
+  114  ls /usr/bin
+  115  ls usr/bin >list.txt
+  116  ls /ust/bin > list.txt
+  117  ls /usr/bin > list.txt
+  118  ls
+  119  cat list.txt
+  120  cd week1
+  121  rm list.txt
+  122  ls
+  123  cd ..
+  124  ls
+  125  mv list.txt ex1.txt
+  126  ls
+  127  cat ex1.txt
+  128  mv ex1.txt week1/ex1.txt
+  129  ls
+  130  cd week1
+  131  ls
+  132  grep gcc ex1.txt
+  133  grep gcc ex1.txt|head
+  134  ls
+  135  gedit ex1.txt
+  136  grep gcc ex1.txt
+  137  grep zoom ex1.txt
+  138  ex1.txt
+  139  gedit ex1.txt
+  140  sudo apt install build-essential
+  141  ls /usr/bin > ex1.txt
+  142  ls
+  143  cd ..
+  144  ls
+  145  cd week1
+  146  grep gcc ex1.txt
+  147  grep gcc ex1.txt|sort -r > ex1.txt
+  148  cat ex1.txt
+  149  gedit ex1.txt
+  150  ls /usr/bin > ex1.txt
+  151  cat ex1.txt
+  152  grep gcc ls /usr/bin
+  153  ls /usr/bin | grep gcc
+  154  ls /usr/bin | grep gcc > ex1.txt
+  155  cat ex1.txt
+  156  ls /usr/bin | grep gcc | sort -r > ex1.txt
+  157  cat ex1.txt
+  158  history > ex2.txt
