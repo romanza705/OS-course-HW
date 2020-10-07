@@ -1,0 +1,3 @@
+Physical address: a real address in the main memory(RAM).
+
+Virtual address: addresses of some program which are stored in the table and mapped to the main memory addresses.
