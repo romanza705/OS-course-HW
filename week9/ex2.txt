@@ -1,0 +1,19 @@
+Maximum hit/miss ratio possible: The principle is that values repeated constantly after one cycle
+Example :1 2 3 4 5 1 2 3 4 5
+
+program res:
+10
+Hits: 5
+Misses: 5
+Ratio hits to misses: 1.000000
+
+
+Minimum hit/miss ratio possible: All values in sequence are different
+Ex: 1 2 3 4 5
+
+
+program res:
+5
+Hits: 0
+Misses: 5
+Ratio hits to misses: 0.000000
