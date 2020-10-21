@@ -1,0 +1,44 @@
+no outputs from commands
+
+итого 40
+drwxrwxr-x 3 roman roman 4096 окт 21 19:51 cmake-build-debug
+-rw-rw-r-- 1 roman roman  121 окт 20 15:26 CMakeLists.txt
+-rw-rw-r-- 3 roman roman  125 окт 20 15:35 _ex1_1.txt
+-rw-rw-r-- 3 roman roman  125 окт 20 15:35 _ex1_2.txt
+-rw-rw-r-- 3 roman roman  125 окт 20 15:35 _ex1.txt
+-rw-rw-r-- 1 roman roman  122 окт 21 19:53 ex1.txt
+-rw-rw-r-- 1 roman roman  903 окт 21 19:52 ex2.txt
+-rwxrw-rwx 1 roman roman    0 окт 21 20:01 _ex3.txt
+-rw-rw-r-- 1 roman roman   26 окт 21 20:07 ex3.txt
+-rw-rw-r-- 1 roman roman   94 окт 20 15:26 library.c
+-rw-rw-r-- 1 roman roman   96 окт 20 15:26 library.h
+-------------------------
+итого 40
+drwxrwxr-x 3 roman roman 4096 окт 21 19:51 cmake-build-debug
+-rw-rw-r-- 1 roman roman  121 окт 20 15:26 CMakeLists.txt
+-rw-rw-r-- 3 roman roman  125 окт 20 15:35 _ex1_1.txt
+-rw-rw-r-- 3 roman roman  125 окт 20 15:35 _ex1_2.txt
+-rw-rw-r-- 3 roman roman  125 окт 20 15:35 _ex1.txt
+-rw-rw-r-- 1 roman roman  122 окт 21 19:53 ex1.txt
+-rw-rw-r-- 1 roman roman  903 окт 21 19:52 ex2.txt
+-rwxrwxrwx 1 roman roman    0 окт 21 20:01 _ex3.txt
+-rw-rw-r-- 1 roman roman  689 окт 21 20:12 ex3.txt
+-rw-rw-r-- 1 roman roman   94 окт 20 15:26 library.c
+-rw-rw-r-- 1 roman roman   96 окт 20 15:26 library.h
+
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ touch _ex3.txt
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ chmod -x _ex3.txt >> ex3.txt
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ echo "no outputs from commands" ex3.txt
+no outputs from commands ex3.txt
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ echo "no outputs from commands" >> ex3.txt
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ chmod u=rwx _ex3.txt
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ chmod o=u _ex3.txt
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ ls -i >>ex3.txt
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ ls -l >>ex3.txt
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ chmod g=u _ex3.txt
+...
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ ls -l >>ex3.txt
+
+660 => 110 110 000 => -rw-rw----
+775 => 111 111 101 => -rwxrwxr-x
+777 => 111 111 111 =>-rwxrwxrwx

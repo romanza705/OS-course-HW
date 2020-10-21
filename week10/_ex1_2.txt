@@ -1,0 +1,6 @@
+
+915809 _ex1.txt
+915809 _ex1_2.txt
+915809 _ex1_1.txt
+
+(by (ls -i _ex1.txt & ls -i _ex1_2.txt & ls -i _ex1_1.txt) >> _ex1.txt)

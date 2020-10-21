@@ -1,0 +1,12 @@
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ ls ../week1
+a.out  ex1.txt  ex2.txt  ex3.sh  ex4.txt  file.txt  main.c
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ link ../week1/file.txt _ex2.txt
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ ls -i ../week01/file.txt
+ls: невозможно получить доступ к '../week01/file.txt': Нет такого файла или каталога
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ ls -i ../week1/file.txt
+141545 ../week1/file.txt
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ find .. -inum 141545
+../week1/file.txt
+../week10/_ex2.txt
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$ find .. -inum 141545 -exec rm {} \;
+roman@roman-HP-Pavilion-Gaming-Laptop-15-cx0xxx:~/OS-course-HW/week10$
