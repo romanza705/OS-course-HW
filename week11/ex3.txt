@@ -1,0 +1,13 @@
+the buffer is free after "/n"
+
+1) two Hello:
+*Hello goes to buffer
+*Fork creates
+*two processes have the same buffer
+*Hello still in buffer
+*two processes outputs old buffer + /n
+
+2)jyt Hello and two spaces:
+*Hello prints
+*Nothing in buffer now
+*two processes prints /n
