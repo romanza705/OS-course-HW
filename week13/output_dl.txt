@@ -1,2 +1,3 @@
-Process num:1 is deadlocked
+giProcess num:1 is deadlocked
 Process num:2 is deadlocked
+Process num:3 is deadlocked
