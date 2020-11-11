@@ -8,4 +8,3 @@ echo "$(($(tail -n 1 < ex2.lock) + 1))" >> ex2.lock
 ((i++))
 done
 rm ex2.lock
-
