@@ -96,7 +96,7 @@ int main(int argc, char *argv[]) {
 
 
         for (int i = 0; i < PROCESS_NUMBER; i++) {
-            if (!executable[i] || !ready[i]) {
+            if (executable[i] && ready[i] == false) {
                 for (int j = 0; j < RESOURCE_NUMBER; j++) {
                     availableResources[j] += allocationMatrix[i][j];
                     allocationMatrix[i][j] = 0;
