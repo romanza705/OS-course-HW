@@ -1,0 +1,13 @@
+Avoiding: good method if we know exactly the amount of resources consumed,
+the disadvantage is that it is not always possible to know in advance how much the process will consume resources.
+______________________________________________________________
+Recovery: is good when you can create placemarks that you can return to.
+However, it is not always possible to recover using these tags, or it will be expensive,
+and this is a disadvantage of this method.
+______________________________________________________________
+Prevention prevents (I didn't choose a better word) the causes of deadlocks,
+so let's look at how it deals with them:
+Mutual exclusion is prevented by blocking access to the resource.
+    However, whether this is possible or not depends on the resource.
+No-preemption can be solved by virtualizing resources, but this is not the best solution.
+Holding and waiting can be easily prevented by requesting all resources in advance, and this is quite expensive.

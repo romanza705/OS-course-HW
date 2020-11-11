@@ -1,0 +1,2 @@
+Process num:1 is deadlocked
+Process num:2 is deadlocked
